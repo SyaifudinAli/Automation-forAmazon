@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite verbose="2" name="TestSuite">
+    <test name="TestPortfolio">
+        <classes>
+            <class name="com.investasikita.test.portfolio.TestSwitchingAll" /> 
+            <class name="com.investasikita.test.portfolio.TestTambahManual" /> 
+            <class name="com.investasikita.test.portfolio.TestTambahNeg" /> 
+            <class name="com.investasikita.test.portfolio.TestTambahNegU100" /> 
+            <class name="com.investasikita.test.portfolio.TestTambahSuggest" /> 
+        </classes>
+    </test>
+
+    <test name="TestTrasnsaksi">
+        <classes>
+            <class name="com.investasikita.test.transaksi.TestBeliDash" /> 
+            <class name="com.investasikita.test.transaksi.TestBeliProductall"/> 
+            <class name="com.investasikita.test.transaksi.TestKeranjang" /> 
+            <class name="com.investasikita.test.transaksi.TesPageProduct" />                         
+            <class name="com.investasikita.test.transaksi.TestTrasnsaksiallNeg" /> 
+            <class name="com.investasikita.test.transaksi.TestTrasnsaksiallSug" /> 
+            <class name="com.investasikita.test.transaksi.TestTrasnsaksiPage" /> 
+            <class name="com.investasikita.test.transaksi.TestValidasiTransaksiU100" /> 
+
+        </classes>
+    </test>
+       
+</suite>
